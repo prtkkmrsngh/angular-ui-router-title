@@ -8,8 +8,6 @@
  * License MIT
  */
 
-(function(angular) {
-
 "use strict";
 angular.module("ui.router.title", ["ui.router"])
 	.run(["$rootScope", "$timeout", "$state", function($rootScope, $timeout, $state) {
@@ -39,6 +37,3 @@ angular.module("ui.router.title", ["ui.router"])
 		}
 
 	}]);
-
-
-})(window.angular);
